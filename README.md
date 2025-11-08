@@ -153,7 +153,7 @@ If Windows doesn't load the FAT driver automatically, try running `sc start fast
 The boot graphics code isn't completed yet - you won't see either the Windows logo or the progress
 indicator, just a few seconds of blackness.
 
-Licences and Thanks
+Licences and Thanks1
 -------------------
 
 This is released under the LGPL. The Mersenne Twister code is by Mutsuo Saito and Makoto Matsumoto -
