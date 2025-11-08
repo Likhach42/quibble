@@ -26,7 +26,7 @@ jobs:
           cp release-work/quibble.efi install/ &&
           cp release-work/btrfs/btrfs.efi install/drivers/ &&
           cp release-work/ntfs/ntfs.efi install/drivers/
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: ${{ github.sha }}
           overwrite: true
